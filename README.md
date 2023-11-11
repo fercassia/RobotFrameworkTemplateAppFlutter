@@ -25,33 +25,57 @@ ____________________________________________
 1. Instale o git
 
 2. Instale o flutter seguindo a documentação
+   
+   i. Coloque o caminho do flutter na variavel de ambiente do usuário -> ```Path```
+   ```bash
+   C:\dev\flutter
+   ```
 
 3. Instale o Java e coloque-o nas variáveis de ambiente
-
+   
+   i. Sete JAVA_HOME como variável de ambiente do usuário
+   ```bash
+   JAVA_HOME=C:\Program Files\Java\{versaoJava}
+   ```
+   ii. Set o bin do java na variável de ambiente do usuário -> ```Path```
+   ```bash
+   %JAVA_HOME%\bin
+   ```
+   
 4. Instale o android studio
 
-    i. configure o android studio corretamente
-    ii. adicione o android studio nas variáveis de ambiente
+    i. configure o android studio, com auxilio da documentação do flutter
+   
+    ii. Sete ANDROID_HOME como variável de ambiente do usuário
+    ```bash
+    ANDROID_HOME=C:\Program Files\Java\{versaoJava}
+    ```
+    iii. Set o platform-tools do android studio na variável de ambiente do usuário -> ```Path```
+    ```bash
+    %ANDROID_HOME%\platform-tools
+    ```
 
 5. Instale o visual studio code
 
-    i. instale a extensão do flutter
+    i. instale a extensão ```Flutter```
 
 6. Instale o python
 
-7. Instale o Robotframework de acordo com a documentação
+7. Instale o Robotframework, com auxilio da documentação
 
 8. Instale o Appium
 
     i. ATENÇÃO: Versão desktop do Appium foi descontinuada, por problemas de segurança. Diante disso é indicado a instalação do appium pelo terminal.
+   
     ii. Após ionstalar o appium, rodeo. Mas Antes set, a permissão para rodar o appium pelo terminal
-        ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ``` [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
+        ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
 
-9. Instale o driver do appium, conforme a documentação
+   [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
 
-__obs:__ Para facilitar a isntalação dos passos 1 e 3, pode seguir esses vídeos [Como Instalar o Flutter no Windows: tudo o que você precisa saber](https://www.youtube.com/watch?v=dpppZ9ySJSY) e [Como Configurar o Emulador Android para Flutter](https://www.youtube.com/watch?v=gNYNvHUSW1s)
+10. Instale o driver do appium, conforme a documentação
+
+__obs:__ Para facilitar a instalação dos passos 2 e 4.i, pode seguir esses vídeos [Como Instalar o Flutter no Windows: tudo o que você precisa saber](https://www.youtube.com/watch?v=dpppZ9ySJSY) e [Como Configurar o Emulador Android para Flutter](https://www.youtube.com/watch?v=gNYNvHUSW1s).
 ____________________________________________
-
 
 #### Passos para Instalação e Configuração do Robot+Flutter Driver+Appium
 

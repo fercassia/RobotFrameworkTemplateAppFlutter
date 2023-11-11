@@ -20,7 +20,7 @@ ____________________________________________
 ____________________________________________
 ### Instalação
 
-#### Pré condições
+#### Pré requisitos
 
 1. Instale o git
 
@@ -45,7 +45,7 @@ ____________________________________________
 
     i. ATENÇÃO: Versão desktop do Appium foi descontinuada, por problemas de segurança. Diante disso é indicado a instalação do appium pelo terminal.
     ii. Após ionstalar o appium, rodeo. Mas Antes set, a permissão para rodar o appium pelo terminal
-        ```bash PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ``` ["Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
+        ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ``` [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
 
 9. Instale o driver do appium, conforme a documentação
 

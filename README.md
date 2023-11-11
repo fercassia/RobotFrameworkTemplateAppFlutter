@@ -8,15 +8,15 @@ Esses testes que foram criados inicialmente para demonstração de como funciona
 ____________________________________________
 ### Tecnologias utilizadas nos testes
 
-- Flutter  - [Flutter versão estável](https://flutter.dev/)
-- Android Studio - [Android Studio](https://acesse.dev/UokJ3)
+- Flutter - [Flutter versão estável](https://flutter.dev/)
+- Emulador Mobile - [Android Studio](https://acesse.dev/UokJ3)
 - Java 11 -  [Java JDK 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 - Python 3.12 - [Python 3.12](https://www.python.org/downloads/)
 - IDE de desenvolvimento (Sugestão) - [Visual Studio Code](httpscode.visualstudio.com)
-- Framework de testes automatizados de Front-End - [RobotFramework](https://robotframework.org/)
+- Framework de testes automatizados para mobile - [RobotFramework](https://robotframework.org/)
 - Orquestrador de testes - [Flutter Driver](https://api.flutter.dev/flutter/flutter_driver/flutter_driver-library.html)
-- Biblioteca RobotFramework Flutter App Testing para appium - (Biblioteca RobotFramework)[https://pypi.org/project/robotframework-appiumflutterlibrary/]
-- Appium - [Appium 2.1 ](https://appium.io/docs/en/2.1/)
+- Biblioteca RobotFramework Flutter App Testing para appium - [Biblioteca RobotFramework](https://pypi.org/project/robotframework-appiumflutterlibrary/)
+- Appium - [Appium 2.1](https://appium.io/docs/en/2.1/)
 ____________________________________________
 ### Instalação
 

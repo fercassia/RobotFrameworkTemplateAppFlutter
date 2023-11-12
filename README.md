@@ -8,7 +8,7 @@ Esses testes que foram criados inicialmente para demonstração de como funciona
 ____________________________________________
 ### Tecnologias utilizadas nos testes
 
-- Flutter - [Flutter versão estável](https://flutter.dev/)
+- Flutter 3.7.12 - [Flutter versão estável 3.7.12](https://docs.flutter.dev/release/archive)
 - Emulador Mobile - [Android Studio](https://acesse.dev/UokJ3)
 - Java 11 -  [Java JDK 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 - Python 3.12 - [Python 3.12](https://www.python.org/downloads/)
@@ -75,6 +75,8 @@ ____________________________________________
 10. Instale o driver do appium, conforme a documentação
 
 __obs:__ Para facilitar a instalação dos passos 2 e 4.i, pode seguir esses vídeos [Como Instalar o Flutter no Windows: tudo o que você precisa saber](https://www.youtube.com/watch?v=dpppZ9ySJSY) e [Como Configurar o Emulador Android para Flutter](https://www.youtube.com/watch?v=gNYNvHUSW1s).
+
+__obs:__ Se houver se erro de compatibilidade for exibido após rodar o comando ```flutter doctor --android-licenses```, seguir a orientação descrita na discussão da issue [flutter doctor --android-licenses not working due to java.lang.UnsupportedClassVersionErro](https://github.com/flutter/flutter/issues/120388)
 ____________________________________________
 
 #### Passos para Instalação e Configuração do Robot+Flutter Driver+Appium

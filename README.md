@@ -48,7 +48,7 @@ ____________________________________________
    
     ii. Sete ANDROID_HOME como variável de ambiente do usuário
     ```bash
-    ANDROID_HOME=C:\Program Files\Java\{versaoJava}
+    ANDROID_HOME=C:\Users\{userName}\AppData\Local\Android\Sdk
     ```
     iii. Set o platform-tools do android studio na variável de ambiente do usuário -> ```Path```
     ```bash
@@ -109,5 +109,4 @@ ____________________________________________
         }
     ```
 ____________________________________________
-
 

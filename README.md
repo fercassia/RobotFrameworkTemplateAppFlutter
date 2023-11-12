@@ -28,7 +28,7 @@ ____________________________________________
    
    i. Coloque o caminho do flutter na variavel de ambiente do usuário -> ```Path```
    ```bash
-   C:\dev\flutter
+   C:\dev\flutter\bin
    ```
 
 3. Instale o Java e coloque-o nas variáveis de ambiente

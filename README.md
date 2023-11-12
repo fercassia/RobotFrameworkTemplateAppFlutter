@@ -82,6 +82,8 @@ ____________________________________________
 #### Passos para Instalação e Configuração do Robot+Flutter Driver+Appium
 
 1. Clone o projeto flutter
+
+    i. ATENÇÃO: Na hora de clonar o projeto flutter em uma pasta, deve ser em uma pasta cujo o nome não deve possuir espaço ou caracteres especiais, pois atrapalha a comunicação flutter com o emulador do mobile
 ```bash
     git clone https://github.com/[gitUser]/{nomeRepositorio}.git
 ```

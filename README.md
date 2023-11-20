@@ -1,4 +1,4 @@
-## Testes automatizados para mobile flutter
+# Testes automatizados para mobile flutter
 
 Testes automatizados mobile utilizando um framework open source conhecido como RobotFramework com auxilio da biblioteca RobotFramework Flutter App Testing para Appium.
 
@@ -6,7 +6,7 @@ GitHub do projeto - [clique aqui]()
 
 Esses testes que foram criados inicialmente para demonstração de como funciona a ferramenta e como seria os testes automatizados.
 ____________________________________________
-### Tecnologias utilizadas nos testes
+## Tecnologias utilizadas nos testes
 
 - Flutter 3.7.12 - [Flutter versão estável 3.7.12](https://docs.flutter.dev/release/archive)
 - Emulador Mobile - [Android Studio](https://acesse.dev/UokJ3)
@@ -18,9 +18,9 @@ ____________________________________________
 - Biblioteca RobotFramework Flutter App Testing para appium - [Biblioteca RobotFramework](https://pypi.org/project/robotframework-appiumflutterlibrary/)
 - Appium - [Appium 2.1](https://appium.io/docs/en/2.1/)
 ____________________________________________
-### Instalação
+## Instalação
 
-#### Pré requisitos
+### Pré requisitos
 
 1. Instale o git
 
@@ -74,12 +74,16 @@ ____________________________________________
 
 10. Instale o driver do appium, conforme a documentação
 
+11. Instale as extensões ```Python``` e do ```Robot Framework Language``` no visual studio code
+
 __obs:__ Para facilitar a instalação dos passos 2 e 4.i, pode seguir esses vídeos [Como Instalar o Flutter no Windows: tudo o que você precisa saber](https://www.youtube.com/watch?v=dpppZ9ySJSY) e [Como Configurar o Emulador Android para Flutter](https://www.youtube.com/watch?v=gNYNvHUSW1s).
 
 __obs:__ Se houver se erro de compatibilidade for exibido após rodar o comando ```flutter doctor --android-licenses```, seguir a orientação descrita na discussão da issue [flutter doctor --android-licenses not working due to java.lang.UnsupportedClassVersionErro](https://github.com/flutter/flutter/issues/120388)
 ____________________________________________
 
-#### Passos para Instalação e Configuração do Robot+Flutter Driver+Appium
+### Passos para Instalação e Configuração do Robot+Flutter Driver+Appium
+
+#### Projeto Flutter
 
 1. Clone o projeto flutter
 
@@ -112,5 +116,6 @@ ____________________________________________
         runApp(const MyApp());
         }
     ```
-____________________________________________
 
+#### Robotframework
+____________________________________________

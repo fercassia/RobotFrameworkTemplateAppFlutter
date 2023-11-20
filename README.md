@@ -67,7 +67,7 @@ ____________________________________________
 
     i. ATENÇÃO: Versão desktop do Appium foi descontinuada, por problemas de segurança. Diante disso é indicado a instalação do appium pelo terminal.
    
-    ii. Após ionstalar o appium, rodeo. Mas Antes set, a permissão para rodar o appium pelo terminal
+    ii. Após instalar o appium, rode-o para verificar se foi instalado. Mas antes, set a permissão para rodar o appium pelo terminal
         ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
 
    [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)

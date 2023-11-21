@@ -67,8 +67,8 @@ ____________________________________________
 
     i. ATENÇÃO: Versão desktop do Appium foi descontinuada, por problemas de segurança. Diante disso é indicado a instalação do appium pelo terminal.
    
-    ii. Após instalar o appium, rode-o para verificar se foi instalado. Mas antes, set a permissão para rodar o appium pelo terminal
-        ```C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
+    ii. Após ionstalar o appium, rodeo. Mas Antes set, a permissão para rodar o appium pelo terminal
+        ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
 
    [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
 
@@ -89,21 +89,36 @@ ____________________________________________
 
     i. ATENÇÃO: Na hora de clonar o projeto flutter em uma pasta, deve ser em uma pasta cujo o nome não deve possuir espaço ou caracteres especiais, pois atrapalha a comunicação flutter com o emulador mobile
 ```bash
-    git clone https://github.com/{gitUser}/{nomeRepositorio}.git
+    git clone https://github.com/[gitUser]/{nomeRepositorio}.git
 ```
 2. Rode o comando abaixo para instalar biblioteca Robotframework mobile flutter para appium
 ```bash
-    pip install --upgrade robotframework-appiumflutterlibrary
+    pip3 install robotframework-appiumlibrary
 ```
-3. Adicione o pacote do flutter driver nas dependencias de desenvolvimento no arquivo ```pubspec.yaml```
+3. Rode o comando abaixo para instalar o appium junto com os drivers de automação
+    i. Nessa automação, está sendo usado apenas o driver para automação de android ```UIAutomator2```
+```bash
+    npm install --location=global appium --drivers=xcuitest,uiautomator2
+```
+
+__Obs:__ Para verificar se há algum update rode os comandos abaixo:
+    i. Para verificar os drivers
+```bash
+    appium driver list --updates
+```
+    ii. Se o update estiver disponivel
+```bash
+    appium driver update xcuitest
+```
+4. Adicione o pacote do flutter driver nas dependencias de desenvolvimento no arquivo ```pubspec.yaml```
 ```bash
     dev_dependencies:
-      flutter_test:
-         sdk: flutter
-      flutter_driver:
-         sdk: flutter
+    flutter_test:
+        sdk: flutter
+    flutter_driver:
+        sdk: flutter
 ```
-4. No arquivo "main.dart" adicionar ```enableFlutterDriverExtension()``` na função main
+5. No arquivo "main.dart" adicionar ```enableFlutterDriverExtension()``` na função main
 
     i. ATENÇÃO: deve adicionar a função antes da função ```runApp()```
 
@@ -112,10 +127,15 @@ ____________________________________________
         import 'package:flutter_driver/driver_extension.dart';
 
         void main() {
-           enableFlutterDriverExtension();
-           runApp(const MyApp());
+        enableFlutterDriverExtension();
+        runApp(const MyApp());
         }
     ```
 
 #### Robotframework
+Comando para rodar o servidor do appium
+```bash
+appium --base-path=/wd/hub
+```
+__obs:__ Se houver erro, entre na documentação do appium [Migrating from Appium 1.x to Appium 2.x](https://appium.io/docs/en/2.0/guides/migrating-1-to-2/#image-analysis-features-moved-to-plugin)
 ____________________________________________

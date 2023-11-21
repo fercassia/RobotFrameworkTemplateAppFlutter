@@ -68,7 +68,7 @@ ____________________________________________
     i. ATENÇÃO: Versão desktop do Appium foi descontinuada, por problemas de segurança. Diante disso é indicado a instalação do appium pelo terminal.
    
     ii. Após instalar o appium, rode-o para verificar se foi instalado. Mas antes, set a permissão para rodar o appium pelo terminal
-        ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
+        ```C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
 
    [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
 
@@ -98,10 +98,10 @@ ____________________________________________
 3. Adicione o pacote do flutter driver nas dependencias de desenvolvimento no arquivo ```pubspec.yaml```
 ```bash
     dev_dependencies:
-    flutter_test:
-        sdk: flutter
-    flutter_driver:
-        sdk: flutter
+      flutter_test:
+         sdk: flutter
+      flutter_driver:
+         sdk: flutter
 ```
 4. No arquivo "main.dart" adicionar ```enableFlutterDriverExtension()``` na função main
 

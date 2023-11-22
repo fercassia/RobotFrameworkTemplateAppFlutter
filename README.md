@@ -34,7 +34,7 @@ ____________________________________________
 
 3. Instale o Java e coloque-o nas variáveis de ambiente
    
-   i. Sete JAVA_HOME como variável de ambiente do usuário
+   i. Set JAVA_HOME como variável de ambiente do usuário
    ```bash
    JAVA_HOME=C:\Program Files\Java\{versaoJava}
    ```
@@ -45,9 +45,9 @@ ____________________________________________
    
 4. Instale o android studio
 
-    i. configure o android studio, com auxilio da documentação do flutter
+    i. Configure o android studio, com auxilio da documentação do flutter
    
-    ii. Sete ANDROID_HOME como variável de ambiente do usuário
+    ii. Set ANDROID_HOME como variável de ambiente do usuário
     ```bash
     ANDROID_HOME=C:\Users\{userName}\AppData\Local\Android\Sdk
     ```
@@ -68,7 +68,7 @@ ____________________________________________
 
     i. ATENÇÃO: Versão desktop do Appium foi descontinuada, por problemas de segurança. Diante disso é indicado a instalação do appium pelo terminal.
    
-    ii. Após ionstalar o appium, rodeo. Mas Antes set, a permissão para rodar o appium pelo terminal
+    ii. Após instalar o appium, rode-o. Mas Antes set, a permissão para rodar o appium pelo terminal
         ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
 
    [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
@@ -77,7 +77,7 @@ ____________________________________________
 
 11. Instale o appium inspector, conforme a documentação
 
-    __obs:__ O Appium inspector funcionar precida aprovar o Cors
+    __obs:__ O Appium inspector funcionar precisa aprovar o Cors
 
     i. Após a instalação encontre o arquivo ```settings``` na pasta de instalação do appium inspector 
     ```bash
@@ -181,7 +181,7 @@ __obs:__ Se houver erro referente ao appium, entre na documentação do appium [
 
    i. Se ainda houver dúvidas, consulte as documentações do appium e appium inspector
 
-   ii. configurado o apium inspector, salve a configuração e se desejar rodar a aplicação com inspector clique no botão ```Start Session```
+   ii. configurado o appium inspector, salve a configuração e se desejar rodar a aplicação com inspector clique no botão ```Start Session```
     
    a. ATENÇÃO!!: Antes de iniciar a sessão, deve iniciar o servidor do appium com o comando abaixo:
    
@@ -191,7 +191,7 @@ appium --base-path=/wd/hub
 
 #### Comandos
 
-1. Comando para rodar todos os testes e serem salvos no file logs
+1. Comando para rodar todos os testes do robot e serem salvos no file logs
 
     i. O parâmetro -d indica o diretório onde os arquivos de logs e screenshots serão armazenados.
 ```bash

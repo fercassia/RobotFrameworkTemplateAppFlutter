@@ -2,7 +2,7 @@
 
 Testes automatizados mobile utilizando um framework open source conhecido como RobotFramework com auxilio da biblioteca RobotFramework Flutter App Testing para Appium.
 
-GitHub do projeto - [clique aqui]()
+GitHub do projeto - [clique aqui](https://github.com/fercassia/RobotFrameworkTemplateAppFlutter)
 
 Esses testes que foram criados inicialmente para demonstração de como funciona a ferramenta e como seria os testes automatizados.
 ____________________________________________
@@ -105,7 +105,13 @@ ____________________________________________
 ```bash
     git clone https://github.com/[gitUser]/{nomeRepositorio}.git
 ```
-2. Adicione o pacote do flutter driver nas dependencias de desenvolvimento no arquivo ```pubspec.yaml```
+2. Abra o projeto flutter
+
+    i. ATENÇÃO: Quando abrir o projeto flutter, baixe as dependencias do flutter
+```bash
+    flutter pub get
+```
+3. Adicione o pacote do flutter driver nas dependencias de desenvolvimento no arquivo ```pubspec.yaml```
 ```bash
     dev_dependencies:
     flutter_test:
@@ -113,7 +119,7 @@ ____________________________________________
     flutter_driver:
         sdk: flutter
 ```
-3. No arquivo "main.dart" adicionar ```enableFlutterDriverExtension()``` na função main
+4. No arquivo "main.dart" adicionar ```enableFlutterDriverExtension()``` na função main
 
     i. ATENÇÃO: deve adicionar a função antes da função ```runApp()```
 
@@ -126,7 +132,6 @@ ____________________________________________
             runApp(const MyApp());
         }
     ```
-
 #### Appium e Robotframework
 
 1. Rode o comando abaixo para instalar biblioteca Robotframework mobile flutter para appium
@@ -142,11 +147,11 @@ ____________________________________________
 
 __Obs:__ Para verificar se há algum update rode os comandos abaixo:
 
-    i. Para verificar os drivers
+   i. Para verificar os drivers
 ```bash
     appium driver list --updates
 ```
-    ii. Se o update estiver disponivel
+   ii. Se o update estiver disponivel
 ```bash
     appium driver update xcuitest
 ```
@@ -174,11 +179,12 @@ __obs:__ Se houver erro referente ao appium, entre na documentação do appium [
 }
 ```
 
-    i. Se ainda houver dúvidas, consulte as documentações do appium e appium inspector
+   i. Se ainda houver dúvidas, consulte as documentações do appium e appium inspector
 
-    ii. configurado o apium inspector, salve a configuração e se desejar rodar a aplicação com inspector clique no botão ```Start Session```
+   ii. configurado o apium inspector, salve a configuração e se desejar rodar a aplicação com inspector clique no botão ```Start Session```
     
-        a. ATENÇÃO!!: Antes de iniciar a sessão, deve iniciar o servidor do appium com o comando abaixo:
+   a. ATENÇÃO!!: Antes de iniciar a sessão, deve iniciar o servidor do appium com o comando abaixo:
+   
 ```bash
 appium --base-path=/wd/hub
 ```

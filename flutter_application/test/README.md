@@ -2,7 +2,7 @@
 
 A arquitetura padrão dos testes é composta por:
 
-```base```: diretório para criação de palavra chava, referente a configuração das varáveis para o projeto rodar;
+```base```: diretório para criação de palavra chave, referente a configuração das varáveis para o projeto rodar;
 
 ```conf```: é o diretório onde criará os arquivos para setup do ambiente, como variáveis e bibliotecas;
 

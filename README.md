@@ -1,6 +1,6 @@
 # Testes automatizados para mobile flutter
 
-Testes automatizados mobile utilizando um framework open source conhecido como RobotFramework com auxilio da biblioteca RobotFramework Flutter App Testing para Appium.
+Testes automatizados mobile utilizando um framework open source conhecido como RobotFramework com auxilio da biblioteca RobotFramework Appium Library
 
 GitHub do projeto - [clique aqui](https://github.com/fercassia/RobotFrameworkTemplateAppFlutter)
 
@@ -15,7 +15,7 @@ ____________________________________________
 - IDE de desenvolvimento (Sugestão) - [Visual Studio Code](httpscode.visualstudio.com)
 - Framework de testes automatizados para mobile - [RobotFramework](https://robotframework.org/)
 - Orquestrador de testes - [Flutter Driver](https://api.flutter.dev/flutter/flutter_driver/flutter_driver-library.html)
-- Biblioteca RobotFramework Flutter App Testing para appium - [Biblioteca RobotFramework](https://pypi.org/project/robotframework-appiumflutterlibrary/)
+- Biblioteca RobotFramework Appium Library - [RobotFrameWork Appium Library](https://docs.robotframework.org/docs/different_libraries/appium)
 - Servidor Appium 2 - [Appium 2.1](https://appium.io/docs/en/2.1/)
 - Ferramenta de inspesionar Appium Inspector -[Appium Inspector](https://github.com/appium/appium-inspector)
 ____________________________________________
@@ -69,7 +69,7 @@ ____________________________________________
     i. ATENÇÃO: Versão desktop do Appium foi descontinuada, por problemas de segurança. Diante disso é indicado a instalação do appium pelo terminal.
    
     ii. Após instalar o appium, rode-o. Mas Antes set, a permissão para rodar o appium pelo terminal
-        ```PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
+        ```C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned ```
 
    [Fonte: "Execução de scripts foi desabilitada neste sistema"?](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema)
 
